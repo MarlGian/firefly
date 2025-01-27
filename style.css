@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+body {
+    background: url('fireflybg.jpeg') no-repeat;
+    background-size: cover;
+    color: black;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+.h1nice {
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #58e6d3, #af6dec, #22cad6);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    text-fill-color: transparent;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #61dbe4;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #546ae4;
+  }
